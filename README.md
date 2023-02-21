@@ -75,10 +75,11 @@ These are all the experiments conducted randomly on stable diffusion v1.4 and v1
 
 The normal worklow would be to finetune the model depending on the data and the goal. The model can be finetuned using the following:
 
-1. LoRA Textural Inversion (maximum compatibiltiy with open source checkpoints)
-2. LoRA Dreambooth (Low compatibiltiy with open source checkpoints)
-3. Dreamartist (Low compatibiltiy but better with faces compared to dreambooth)
-4. ControlNet (This should be compatible with almost all checkpoints) -- (This attaches zero convolutions to the middle and decoder blocks of the UNEt and should allow finer control over the output.)
+1. [LoRA Textural](https://huggingface.co/docs/diffusers/training/lora) Inversion (maximum compatibiltiy with open source checkpoints)
+2. [LoRA Dreambooth](https://huggingface.co/docs/diffusers/training/lora) (Low compatibiltiy with open source checkpoints)
+3. [Dreamartist](https://github.com/7eu7d7/DreamArtist-sd-webui-extension) (Low compatibiltiy but better with faces compared to dreambooth)
+4. [ControlNet](https://github.com/lllyasviel/ControlNet) (This should be compatible with almost all checkpoints) -- (This attaches zero convolutions to the middle and decoder blocks of the UNEt and should allow finer control over the output.)
+5. [Tencent T2I-Adapter](https://github.com/TencentARC/T2I-Adapter/tree/main) (This should be compatible with almost all checkpoints and can be used with other models after finetuning only once)
 
 Then the model would be copied to a web-ui for quick interactive testing if required. The following repo is recommended for this:
 
