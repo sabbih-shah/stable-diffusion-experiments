@@ -75,7 +75,7 @@ Then we need to download the jeon_lora.safetensors embedding:
 
 ```bash
 cd data/Lora
-wget lora_link
+wget https://huggingface.co/sabbih/jeon/resolve/main/jeon.safetensors
 ```
 
 ### Results
