@@ -60,6 +60,7 @@ https://github.com/kohya-ss/sd-webui-additional-networks.git
 ```
 
 This would add a purple window looking buttion to display additional networks. Such as Lora:
+
 ![Additional Models Button](button.png)
 
 After doing this we need to download the relevant checkpoints and LoRA embeddings. For this assuming that webUI is setup correctly. We need to download and copy the following model to the correct directory:
