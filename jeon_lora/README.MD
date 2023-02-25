@@ -50,7 +50,7 @@ cd stable-diffusion-webui-docker
 docker compose --profile download up --build
 docker compose --profile auto up --build
 ```
-The above will seup and run the webUI.
+The above will setup and run the webUI.
 
 We then  need to install the following extension in the webUI:
     
