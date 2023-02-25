@@ -83,6 +83,11 @@ wget https://huggingface.co/sabbih/jeon/resolve/main/jeon.safetensors
 
 *Remember to load the anything-v4.5-pruned.safetensors model in the webUI*
 
+*please also use the following negative prompt:*
+```
+(painting by bad-artist-anime:0.9), (painting by bad-artist:0.9), watermark, text, error, blurry, jpeg artifacts, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, artist name, (worst quality, low quality:1.4), bad anatomy, extra limb, deformed legs, (muscular:1.0), (double eyes), cut face
+```
+
 We start with some of the easier prompts:
 
 ```
