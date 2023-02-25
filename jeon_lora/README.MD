@@ -81,6 +81,8 @@ wget https://huggingface.co/sabbih/jeon/resolve/main/jeon.safetensors
 
 ### Results
 
+*Remember to load the anything-v4.5-pruned.safetensors model in the webUI*
+
 We start with some of the easier prompts:
 
 ```
@@ -93,7 +95,7 @@ jeon with long hair crying in the rain, <lora:jeon:0.85>
 ```
 ![jeon with long hair crying in the rain](outputs/00014-1403210158.png)
 
-```
+
 Now for some medium difficulty prompts:
 
 ```bash
